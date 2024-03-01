@@ -22,8 +22,8 @@ name = 'gideon'
 attemts = 0
 
 # keys
-#with open('src/keys.json') as json_file:
-    #keys = json.load(json_file)
+with open('src/keys.json') as json_file:
+    keys = json.load(json_file)
 
 # colors
 green_color = "\033[1;32;40m"
